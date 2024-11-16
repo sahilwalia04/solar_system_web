@@ -1,0 +1,49 @@
+.bodynavbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 1%;
+    background-color: rgb(3, 59, 94);
+    color: white;
+}
+.ncontainer1{
+  display: flex;
+  justify-content: space-between;
+  width: 47%;
+}
+.ncontainer1 div {
+    display: flex;
+    cursor: pointer;
+
+}
+.ncontainer1 div a{
+    padding-left: 1em;
+    text-decoration: none;
+    color: white;
+}
+.ncontainer1 div img{
+    height: 1.3em;
+    margin-top: -2px;
+    padding-right: 0.3em;
+}
+.ncontainer{
+    cursor: pointer;
+}
+.ncontainer:hover{
+    text-decoration: underline;
+}
+.emaildivacco{
+    display: flex;
+    justify-content: space-between;
+    width: 14em;
+    align-items: center;
+    align-content: center;
+    border: 1px solid;
+    padding: 0.5em;
+    border-radius: 10px;
+}
+.logoutemail{
+    cursor: pointer;
+}
+.logoutemail:hover{
+    text-decoration: underline;
+}

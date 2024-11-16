@@ -1,0 +1,29 @@
+.bodyapi{
+   background-color: rgb(227, 227, 227);
+   padding: 1.6%;
+}
+.apihome{
+    font-family: monospace;
+    font-size: 1.4em;
+    color: rgb(110, 106, 106);
+}
+.bodyapi h1 {
+    font-family: sans-serif;
+}
+
+.items{
+   display: grid;
+   grid-template-columns: auto auto auto auto;
+   justify-content: space-between;
+
+}
+.item{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  margin-bottom: 12%;
+  cursor: pointer;
+  text-align: center;
+  font-family: sans-serif;
+}
+.item img{
+    height: 19em;
+}
