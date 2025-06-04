@@ -4,7 +4,6 @@ import img3 from '../images/img3.png'
 function Sixth() {
     const starContainerRef = useRef(null);
     const starContainerRefh = useRef(null);
-
     useEffect(() => {
         function createStars() {
             const container = starContainerRef.current;

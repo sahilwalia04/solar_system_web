@@ -255,3 +255,76 @@
         transform: rotate(360deg);
     }
 }
+
+/* Responsive Design */
+@media screen and (max-width: 1200px) {
+    .typing-container {
+        font-size: 3em;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .bodyhead {
+        height: 8em;
+    }
+
+    .typing-container {
+        font-size: 2.5em;
+    }
+
+    .containermy {
+        font-size: 4px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .bodyhead {
+        height: 6em;
+    }
+
+    .typing-container {
+        font-size: 2em;
+    }
+
+    .containermy {
+        font-size: 3px;
+    }
+}
+
+
+/* // ... existing code ... */
+
+/* Responsive Design */
+@media screen and (max-width: 1200px) {
+    .typing-container {
+        font-size: 3em;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .bodyhead {
+        height: 8em;
+    }
+
+    .typing-container {
+        font-size: 2.5em;
+    }
+
+    .containermy {
+        font-size: 4px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .bodyhead {
+        height: 6em;
+    }
+
+    .typing-container {
+        font-size: 2em;
+    }
+
+    .containermy {
+        font-size: 3px;
+    }
+}

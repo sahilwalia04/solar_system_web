@@ -44,7 +44,7 @@ function MySolarSystem() {
 
 
   // Data for typing effect
-  const textToType = "WELLCOME TO GALAXY";
+  const textToType = "WELCOME TO GALAXY";
   const typingSpeed = 100; // Speed in milliseconds
   const deletingSpeed = 50; // Speed for deleting in milliseconds
   const delayBeforeDelete = 2000; // Delay before deleting

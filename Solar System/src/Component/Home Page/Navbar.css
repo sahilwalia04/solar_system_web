@@ -47,3 +47,74 @@
 .logoutemail:hover{
     text-decoration: underline;
 }
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .bodynavbar {
+        flex-direction: column;
+        padding: 2%;
+    }
+
+    .ncontainer1 {
+        width: 100%;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .ncontainer1 div {
+        justify-content: center;
+    }
+
+    .emaildivacco {
+        width: 90%;
+        margin: 10px auto;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .ncontainer1 div a {
+        font-size: 14px;
+    }
+
+    .emaildivacco {
+        font-size: 14px;
+        padding: 0.3em;
+    }
+}
+
+
+/* // ... existing code ... */
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .bodynavbar {
+        flex-direction: column;
+        padding: 2%;
+    }
+
+    .ncontainer1 {
+        width: 100%;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .ncontainer1 div {
+        justify-content: center;
+    }
+
+    .emaildivacco {
+        width: 90%;
+        margin: 10px auto;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .ncontainer1 div a {
+        font-size: 14px;
+    }
+
+    .emaildivacco {
+        font-size: 14px;
+        padding: 0.3em;
+    }
+}
