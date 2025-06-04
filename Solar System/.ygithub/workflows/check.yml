@@ -1,0 +1,29 @@
+name: Node.js CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 📥 Checkout code
+        uses: actions/checkout@v3
+
+      - name: 🟢 Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'  # tu apna version dal sakta hai
+
+      - name: 📦 Install dependencies
+        run: npm install
+
+      - name: ▶️ Run the app
+        run: npm start  # agar tere package.json me "start" script defined hai
+
+      - name: 🛠 Build the project
+        run: npm run build  # agar tere project me build command hai
