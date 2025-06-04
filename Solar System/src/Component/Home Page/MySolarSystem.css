@@ -164,7 +164,7 @@
     right: 0.8em;
     width: 2em;
     height: 2em;
-    background-image: url('D:\Solar System Project\Solar System\src\Component\images\plannat\mercury.png');
+    background-image: url('../images/plannat/mercury.png');
     background-size: cover;
 }
 .venus::before {
@@ -172,7 +172,7 @@
     right: 2em;
     width: 2em;
     height: 2em;
-    background-image: url('D:\Solar System Project\Solar System\src\Component\images\plannat\venus.png');
+    background-image: url('../images/plannat/venus.png');
     background-size: cover;
 }
 .earth::before {
@@ -180,7 +180,7 @@
     right: 0em;
     width: 5em;
     height: 5em;
-    background-image: url('D:\Solar System Project\Solar System\src\Component\images\plannat\earth.png');
+    background-image: url('../images/plannat/earth.png');
     background-size: cover;
 }
 
@@ -189,7 +189,7 @@
     right: 0.2em;
     width: 1.2em;
     height: 1.2em;
-    background-image: url('D:\Solar System Project\Solar System\src\Component\images\plannat\moon.png');
+    background-image: url('../images/plannat/moon.png');
     background-size: cover;
 }
 .mars::before {
@@ -197,7 +197,7 @@
     right: 3em;
     width: 3em;
     height: 3em;
-    background-image: url('D:\Solar System Project\Solar System\src\Component\images\plannat\mars.png');
+    background-image: url('../images/plannat/mars.png');
     background-size: cover;
 }
 .jupiter::before {
@@ -205,7 +205,7 @@
     right: 3em;
     width: 5em;
     height: 5em;
-    background-image: url('D:\Solar System Project\Solar System\src\Component\images\plannat\jupiter.png');
+    background-image: url('../images/plannat/jupiter.png');
     background-size: cover;
 }
 .saturn::before {
@@ -213,7 +213,7 @@
     right: 5em;
     width: 4.5em;
     height: 4.5em;
-    background-image: url('D:\Solar System Project\Solar System\src\Component\images\plannat\saturn.png');
+    background-image: url('../images/plannat/saturn.png');
     background-size: cover;
 }
 .uranus::before {
@@ -221,7 +221,7 @@
     right: 6.5em;
     width: 4em;
     height: 4em;
-    background-image: url('D:\Solar System Project\Solar System\src\Component\images\plannat\uranus.png');
+    background-image: url('../images/plannat/uranus.png');
     background-size: cover;
 }
 .neptune::before {
@@ -229,7 +229,7 @@
     right: 8em;
     width: 4em;
     height: 4em;
-    background-image: url('D:\Solar System Project\Solar System\src\Component\images\plannat\neptune.png');
+    background-image: url('../images/plannat/neptune.png');
     background-size: cover;
 }
 .pluto::before {
@@ -237,7 +237,7 @@
     right: 10em;
     width: 4em;
     height: 4em;
-    background-image: url('D:\Solar System Project\Solar System\src\Component\images\plannat\pluto.png');
+    background-image: url('../images/plannat/pluto.png');
     background-size: cover;
 }
 

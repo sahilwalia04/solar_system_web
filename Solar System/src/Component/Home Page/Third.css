@@ -1,6 +1,6 @@
 .bodythird {
     height: 75em;
-    background-image: url("D:\Solar System Project\Solar System\src\Component\images\plannate.jpg"); /* Adjust the path as needed */
+    background-image: url("../images/plannate.jpg"); /* Adjust the path as needed */
     background-repeat: no-repeat; /* Prevents the background image from repeating */
     background-size: cover;
    color: white;
